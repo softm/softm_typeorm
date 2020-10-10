@@ -13,7 +13,7 @@ export class User {
 
     @OneToOne(type => Profile, profile => profile.user)
     @JoinColumn({
-        name: 'profile_id'    // default: profileId~~!~~~
+        name: 'profile_id'    // default: profileId~~!~~~!!!
     })
     profile: Profile;
 
